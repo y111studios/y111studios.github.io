@@ -1,0 +1,61 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 4vmin;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000033;
+}
+
+h1 {
+  position: absolute;
+  background: inherit;
+  z-index: 9;
+}
+
+a {
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.quadrant {
+  display: flex;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.8;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.green {
+  background-color: darkgreen;
+}
+
+.red {
+  background-color: darkred;
+  background-image: url("https://cdn.glitch.global/c6a09762-11ac-4e76-b215-b347384bc0e1/GitHub-logo.png?v=1731254486147");
+  
+}
+
+.purple {
+  background-color: indigo;
+  background-image: url("https://cdn.glitch.global/c6a09762-11ac-4e76-b215-b347384bc0e1/unisim-map.png?v=1731254630865");
+}
+
+.gold {
+  background-color: darkgoldenrod;
+}
