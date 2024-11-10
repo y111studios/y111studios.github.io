@@ -59,3 +59,22 @@ a {
 .gold {
   background-color: darkgoldenrod;
 }
+
+.diagrams {
+  display: none;
+  position: absolute;
+  flex-wrap: wrap;
+  z-index: 10;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: inherit;
+}
+
+.close {
+  right: 0.5em;
+  cursor: pointer;
+}
+
+.close:hover {
+  opacity: 0.3;
+}
