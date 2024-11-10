@@ -47,13 +47,13 @@ a {
 
 .red {
   background-color: darkred;
-  background-image: url("https://cdn.glitch.global/c6a09762-11ac-4e76-b215-b347384bc0e1/GitHub-logo.png?v=1731254486147");
+  background-image: url("GitHub-logo.png");
   
 }
 
 .purple {
   background-color: indigo;
-  background-image: url("https://cdn.glitch.global/c6a09762-11ac-4e76-b215-b347384bc0e1/unisim-map.png?v=1731254630865");
+  background-image: url("unisim-map.png");
 }
 
 .gold {
